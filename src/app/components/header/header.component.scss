@@ -1,0 +1,38 @@
+.row {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.img-avatar {
+  img {
+    border-radius: 100%;
+  }
+}
+
+.icons {
+  a {
+    cursor: pointer;
+    color: hsla(0, 0, 0, 0.7);
+
+    &:hover {
+      transition: color .2s ease-in-out, border-color .2s ease-in-out;
+      color: #49bf9d;
+    }
+  }
+}
+
+.links {
+  margin: 1rem;
+  background-color: hsla(0, 0, 0, 0.7) !important;
+  border-color: transparent !important;
+  color: white;
+
+  &:hover {
+    transition: background-color .2s ease-in-out;
+    background-color: #49bf9d !important;
+  }
+
+  &.active {
+    display: none;
+  }
+}

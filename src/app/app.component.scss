@@ -1,0 +1,50 @@
+.col-sm-4.d-flex {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  background-image: url("https://picsum.photos/900?image=809");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: 100%;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(180, 102, 243, 0.5);
+  }
+}
+
+.col-sm-8 {
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-image: url("https://picsum.photos/800?image=628");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #49bf9d;
+    opacity: 0.5;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .col-sm-4.d-flex {
+    position: relative;
+  }
+}

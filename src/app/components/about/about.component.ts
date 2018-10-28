@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-
 
 @Component({
   selector: 'app-about',
@@ -8,7 +6,8 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-  title = 'Estelle Potenti';
+  // title = 'John Doe';
+  // message = 'I\'m an emerging artist!';
 
   constructor() { }
 
