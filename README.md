@@ -1,7 +1,7 @@
 # PortfolioPhotoAngular
 ## Deploy
 
-Project run at this link: [https://ddiez31.github.io/Portfolio-Photo-Angular]
+Project run at this link: [https://ddiez31.github.io/Portfolio-Photo-Angular] or [http://portfolio-photo-angular.surge.sh]
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
